@@ -1,5 +1,12 @@
 # Contributing Guide
 
+**How to contribute:**
+1. Fork this repository
+2. Clone your fork `git clone ssh://git@github.com/<your username>/awesome-amii-hpc.git`
+3. Make targeted, focused commits in your fork
+4. Open a PR against the `main` branch of the parent repo: `Amii-Open-Source/awesome-amii-hpc`
+5. Wait for approvals and make requested changes
+
 ## Contribution Types
 Know of an awesome resource for HPC, clusters, or tools for highly parallel ML?
 Find a typo, bug, out-of-date information, or dead link?
