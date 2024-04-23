@@ -11,3 +11,4 @@
 ## Category 1
 
 * [Placeholder link]()
+* [Ubuntu HPC](https://www.youtube.com/watch?v=tGIobcyKViI&t=2s) - HPC in Ubuntu
