@@ -11,3 +11,7 @@
 ## Category 1
 
 * [Placeholder link]()
+
+## How Do I connect to the Cluster?
+
+* [SSH quickstart](https://linuxhandbook.com/ssh-basics/)
