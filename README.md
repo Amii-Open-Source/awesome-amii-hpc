@@ -7,11 +7,12 @@
 ## Table of Contents
 
 1. [Category 1](#category-1)
+2. [How do I connect to the cluster?](#how-do-i-connect-to-the-cluster)
 
 ## Category 1
 
 * [Placeholder link]()
 
-## How Do I connect to the Cluster?
+## How do I connect to the cluster?
 
-* [SSH quickstart](https://linuxhandbook.com/ssh-basics/)
+* [SSH quickstart](https://linuxhandbook.com/ssh-basics/) - Step-by-step ssh and scp guide.
