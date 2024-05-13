@@ -8,16 +8,19 @@
 
 1. [Category 1](#category-1)
 
-## Category 1
+## What is a cluster?
 
-* [Ubuntu HPC](https://www.youtube.com/watch?v=tGIobcyKViI&t=2s) - Introduce the cluster components in a clear arrangement and provide some resources to learn HPC clusters, as well as some use cases.
-* [AWS ParallelCluster login node](https://aws.amazon.com/cn/blogs/hpc/introducing-login-nodes-in-aws-parallelcluster/) - A detailed introduction and instruction to access the login node of AWS ParallelCluster, including the way to control the login nodes.
-* [RWTH High Performance Computing (Linux)](https://help.itc.rwth-aachen.de/en/service/rhr4fjjutttf/) - This instruction gives detailed description of each login node, including different login ways via SSH and MFA, remote desktop and Jupyter.
-* [NetApp ONTAP AI with NVIDIA DGX A100 Systems](https://www.netapp.com/media/19432-nva-1151-design.pdf) - This designing document gives detailed tables of the architecture of NetApp ONTAP AI and NVIDIA DGX A100 Systems, gives the topologies of compute nodes and storage hierarchy.
-* [Dell Technologies HPC solutions portfolio](https://www.delltechnologies.com/asset/en-ae/products/ready-solutions/briefs-summaries/ready-solutions-for-hpc-solution-overview.pdf) - This documents gives detailed configuration information of HPC. Not only the data, but also some interesting things like how the HPCs are configured, and not only CPUs and GPUs, FPGAs can also be used to configure an HPC.
-* [Vlaams Supercomputer Centrum VSC documentation](https://docs.vscentrum.be/index.html) - This document gives a detailed introduction of their storage infrastructure, especially the architecture of tier-1 and tier-2.
-* [Top 500 list](https://www.top500.org/) - This website gives the data of the top 500 listed supercomputers, which gives a scope of how fast and how much compute nodes are, and also an introduction and comparison among these computers.
-* [FRONTIER (ORNL’s exascale supercomputer)](https://www.olcf.ornl.gov/frontier/) - This page gives a scope of the top 1 supercomputer in 2023, and some data comparison.
-* [Aurora by Argonne National Laboratory](https://www.alcf.anl.gov/aurora) - This page gives the detailed data of the nodes in Aurora.
-* [Iowa State University High Performance Computing](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/what-is-an-hpc-cluster) - One abstract HPC topology is gotten here. This website also contains instructions of using some tools like SLURM.
+* [Wikipedia](https://en.wikipedia.org/wiki/High-performance_computing) - An introduction of HPC.
+* [Compute Canada: an introduction to HPC](https://training.incf.org/lesson/high-performance-computing-compute-canada) - This Youtube video gives an introduction to high-performance computing with the Compute Canada network, first providing an overview of use cases for HPC and then a hands-on tutorial.
+* [Compute Canada: SSH](https://docs.alliancecan.ca/wiki/SSH) - An introduction of Secure Shell used to connect to remote machines securely.
+* [Compute Canada: Cedar](https://docs.alliancecan.ca/wiki/Cedar) - An introduction of Cedar, a heterogeneous cluster located at Simon Fraser University.
+* [Compute Canada: Graham](https://docs.alliancecan.ca/wiki/Graham) - An introduction of Graham, a heterogeneous cluster located at the University of Waterloo.
+* [Compute Canada: Narval](https://docs.alliancecan.ca/wiki/Narval/en) - An introduction of Narval, a general purpose cluster located at the École de technologie supérieure in Montreal.
+* [Compute Canada: Béluga](https://docs.alliancecan.ca/wiki/B%C3%A9luga/en) - An introduction of Béluga, a general purpose cluster situated at the École de technologie supérieure in Montreal.
+* [Compute Canada: Niagara](https://docs.alliancecan.ca/wiki/Niagara) - An introduction of Niagara, a homogeneous cluster owned by the University of Toronto and operated by SciNet.
+* [Compute Canada: Lustre](https://docs.alliancecan.ca/wiki/Tuning_Lustre) - An introduction and tutorial of Lustre Filesystem.
+* [Compute Canada: Storage and file management](https://docs.alliancecan.ca/wiki/Storage_and_file_management) - An introduction of a wide range of storage options to cover the needs of very diverse users of Compute Canada.
+* [Ubuntu HPC](https://www.youtube.com/watch?v=tGIobcyKViI&t=2s) - An introduction of cluster components.
+* [Top 500 list](https://www.top500.org/) - The data of top 500 listed supercomputers, which gives a scope of how fast and how much compute nodes are, and also introduction and comparison among these computers.
+* [Iowa State University HPC Guides](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters) - A collection of introductory guides for HPC including SLURM, globus, unix, python, julia, and much more.
 
