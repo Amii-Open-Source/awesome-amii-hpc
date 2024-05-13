@@ -11,6 +11,7 @@
 ## What is a cluster?
 
 * [Wikipedia](https://en.wikipedia.org/wiki/High-performance_computing) - An introduction of HPC.
+### Compute Canada
 * [Compute Canada: an introduction to HPC](https://training.incf.org/lesson/high-performance-computing-compute-canada) - A Youtube video introducting high-performance computing with the Compute Canada network, first providing an overview of use cases for HPC and then a hands-on tutorial.
 * [Compute Canada: SSH](https://docs.alliancecan.ca/wiki/SSH) - An introduction of Secure Shell used to connect to remote machines securely.
 * [Compute Canada: Cedar](https://docs.alliancecan.ca/wiki/Cedar) - An introduction of Cedar, a heterogeneous cluster located at Simon Fraser University.
@@ -47,3 +48,6 @@
 * [Compute Canada: Flax](https://docs.alliancecan.ca/wiki/Flax) - Introduction and tutorial of Flax, a neural network library and ecosystem for JAX that is designed for flexibility, including the guidance of using jax.pmap.
 * [Ashoka HPC Documentation](https://hpc.ashoka.edu.in/An%20Introduction%20to%20HPC/When%20should%20I%20use%20HPC/) - A brief description of when should we use HPC.
 
+# Synchronous parallism
+## openMPI
+*
