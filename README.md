@@ -27,7 +27,7 @@
 
 ## When should I use a cluster?
 
-* [Compute Canada: Systems available](https://docs.alliancecan.ca/wiki/Getting_started#What_systems_are_available?) - A brief introduction of the five systems and their types.
+* [Compute Canada: Systems available](https://docs.alliancecan.ca/wiki/Getting_started#What_systems_are_available?) - A brief introduction for the five systems of Compute Canada and the clusters' types.
 * [Compute Canada: Allocations and compute scheduling](https://docs.alliancecan.ca/wiki/Allocations_and_compute_scheduling#Choosing_GPU_models_for_your_project) - A brief tutorial of choosing GPU models for your project.
 * [Compute Canada: Checkpoints](https://docs.alliancecan.ca/wiki/Points_de_contr%C3%B4le/en) - Creating and loading a checkpoint.
 * [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - Toturial of checkpointing a long-running job.
