@@ -29,13 +29,13 @@
 
 * [Compute Canada: Systems available](https://docs.alliancecan.ca/wiki/Getting_started#What_systems_are_available?) - A brief introduction for the five systems of Compute Canada and the clusters' types.
 * [Compute Canada: Allocations and compute scheduling](https://docs.alliancecan.ca/wiki/Allocations_and_compute_scheduling#Choosing_GPU_models_for_your_project) - A brief tutorial of choosing GPU models for your project.
-* [Compute Canada: Checkpoints](https://docs.alliancecan.ca/wiki/Points_de_contr%C3%B4le/en) - Creating and loading a checkpoint.
-* [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - Toturial of checkpointing a long-running job.
-* [Tensorflow: Checkpoint guide](https://www.tensorflow.org/guide/checkpoint) - Guide of training checkpoints while using Tensorflow.
+* [Compute Canada: Checkpoints](https://docs.alliancecan.ca/wiki/Points_de_contr%C3%B4le/en) - A tutorial of creating and loading a checkpoint.
+* [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - A toturial of checkpointing a long-running job.
+* [Tensorflow: Checkpoint guide](https://www.tensorflow.org/guide/checkpoint) - Guidance for training checkpoints while using Tensorflow.
 * [Enabling Coordinated Checkpointing for Distributed HPC Application](https://www.youtube.com/watch?v=lswkWQU4_W0) - A Youtube video presenting a new coordination mechanism for Checkpoint/Restore in User-Space.
 * [Nvidia: MIG user guide documentation](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html#abstract) - A user guide documentation of multi-instance GPU from Nvidia.
 * [Tensorflow: Distributed training](https://www.tensorflow.org/guide/keras/distributed_training) - Introduction and tutorial of Multi-GPU and distributed training.
-* [Wikipedia: GNU parallel](https://en.wikipedia.org/wiki/GNU_parallel) - Introduction and user guide of GNU parallel.
+* [Wikipedia: GNU parallel](https://en.wikipedia.org/wiki/GNU_parallel) - Introduction and user's guide of GNU parallel.
 * [Compute Canada: GNU parallel](https://docs.alliancecan.ca/wiki/GNU_Parallel) - An introductory tutorial of using GNU parallel.
 * [GNU parallel tutorial documentation](https://www.gnu.org/software/parallel/parallel_tutorial.html) - A tutorial of GNU parallel, including its functionality, options and syntax.
 * [Open-MPI documentation](https://www.open-mpi.org/doc/) - A series of versions for Open MPI documentations.
