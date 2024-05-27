@@ -3,7 +3,7 @@
 An HPC cluster is a collection of separate servers (computers), called nodes, which are connected via a fast interconnect. All cluster nodes have the same components as a laptop or desktop: CPU cores, memory, and networking. The difference between personal computer and a cluster node is in quantity, quality and power of the components.
 
 An HPC cluster typically contains three primary components. (1) A head node (or login node), where users log-in to the cluster often with SSH. (2) Compute nodes, where a majority of computations are run. These computations can be run both across CPU cores or GPUs. And finally, (3) storage nodes, which contain many drives (SSDs, HDDs, and sometimes tape) and provide shared storage across all other nodes in the cluster.
-![An HPC cluster topology. Photo by https://www.hpc.iastate.edu](https://www.hpc.iastate.edu/sites/default/files/uploads/HPCHowTo/HPCCluster.JPG){ width: 100px; }*An HPC cluster topology. Photo by https://www.hpc.iastate.edu*
+![An HPC cluster topology. Photo by https://www.hpc.iastate.edu](https://www.hpc.iastate.edu/sites/default/files/uploads/HPCHowTo/HPCCluster.JPG)*An HPC cluster topology. Photo by https://www.hpc.iastate.edu*
          
 ## Networking of an HPC cluster
 ![Topology of "Hortense" Tier-1 supercomputer, hosted by Ghent University](https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_1729,h_1357,al_c,q_95,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png)*Topology of an hpc. Photo by https://static.wixstatic.com*
