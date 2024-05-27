@@ -3,10 +3,10 @@
 An HPC cluster is a collection of separate servers (computers), called nodes, which are connected via a fast interconnect. All cluster nodes have the same components as a laptop or desktop: CPU cores, memory, and networking. The difference between personal computer and a cluster node is in quantity, quality and power of the components.
 
 An HPC cluster typically contains three primary components. (1) A head node (or login node), where users log-in to the cluster often with SSH. (2) Compute nodes, where a majority of computations are run. These computations can be run both across CPU cores or GPUs. And finally, (3) storage nodes, which contain many drives (SSDs, HDDs, and sometimes tape) and provide shared storage across all other nodes in the cluster.
-![An HPC cluster topology. Photo by https://www.hpc.iastate.edu](https://www.hpc.iastate.edu/sites/default/files/uploads/HPCHowTo/HPCCluster.JPG)*An HPC cluster topology. Photo by https://www.hpc.iastate.edu*
+![An HPC cluster topology. Photo by https://www.hpc.iastate.edu](https://www.hpc.iastate.edu/sites/default/files/uploads/HPCHowTo/HPCCluster.JPG){ width: 200px; }*An HPC cluster topology. Photo by https://www.hpc.iastate.edu*
          
 ## Networking of an HPC cluster
-![Topology of "Hortense" Tier-1 supercomputer, hosted by Ghent University](https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_1729,h_1357,al_c,q_95,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png)
+![Topology of "Hortense" Tier-1 supercomputer, hosted by Ghent University](https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_1729,h_1357,al_c,q_95,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png)*Topology of an hpc. Photo by https://static.wixstatic.com*
 
 ## Login nodes
 The login nodes of clusters are the portal to the outside world. Users connect to these nodes mostly using SSH (Secure Shell), which is a common method for secure remote login from one computer to another. When connecting to the cluster, you initially interact with these login nodes. The nodes handle many concurrent users, typically between 50 and 100. It's crucial that these nodes are quick and responsive to ensure that users do not spend excessive time waiting for simple commands to execute. 
@@ -55,7 +55,7 @@ capacity), and persistent ‘project’ (at 23 000 TB), to high-speed non-persis
 - Niagara: The tiered storage system ranges from small persistent ‘home’ (at 200 TB total capacity), and persistent ‘project’ (at 2000 TB), to high-speed nonpersistent ‘scratch’ (at 7000 TB), and very-high speed non-persistent ‘burst’ (at 230 TB).
 - Béluga: The tiered storage system ranges from small persistent ‘home’ (at over 100 TB total capacity), and persistent ‘project’ (at 25000 TB), to high-speed non-persistent ‘scratch’ (at 2600 TB).
   
-![Tiering model. Photo by https://static.wixstatic.com](https://static.wixstatic.com/media/5446c2_002fa8b33249455b80a94926fc81cc26~mv2.jpg/v1/crop/x_0,y_118,w_1015,h_482/fill/w_1015,h_482,al_c,q_85,enc_auto/07032022_Tiering-Model.jpg)
+![Tiering model. Photo by https://static.wixstatic.com](https://static.wixstatic.com/media/5446c2_002fa8b33249455b80a94926fc81cc26~mv2.jpg/v1/crop/x_0,y_118,w_1015,h_482/fill/w_1015,h_482,al_c,q_85,enc_auto/07032022_Tiering-Model.jpg)*Tiering model. Photo by https://static.wixstatic.com*
 
 ## A backup storage server
 A typical backup strategy includes differential daily backups, which capture only the changes made since the last full backup, rather than copying all files anew. Additionally, complete backups are typically conducted at a slower pace---such as monthly---and involve copying all data as it exists at that time, ensuring that a complete snapshot of data is available for recovery.
