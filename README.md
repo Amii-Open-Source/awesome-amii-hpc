@@ -47,19 +47,18 @@
 
 
 
-# synchronous parallelism
+# Synchronous Parallelism
 * [Tensorflow: Distributed training](https://www.tensorflow.org/guide/keras/distributed_training) - Introduction and tutorial of Multi-GPU and distributed training.
 * [Wikipedia: GNU parallel](https://en.wikipedia.org/wiki/GNU_parallel) - Introduction and user's guide of GNU parallel.
 * [Compute Canada: GNU parallel](https://docs.alliancecan.ca/wiki/GNU_Parallel) - An introductory tutorial of using GNU parallel.
 * [GNU parallel tutorial documentation](https://www.gnu.org/software/parallel/parallel_tutorial.html) - A tutorial of GNU parallel, including its functionality, options and syntax.
-## openMPI
+## OpenMPI
 * [Open-MPI documentation](https://www.open-mpi.org/doc/) - A series of versions for Open MPI documentations.
 * [Open MPI v5.0.x](https://docs.open-mpi.org/en/v5.0.x/) - The documentation of current release Open MPI.
 * [SLURM: MPI users guide](https://slurm.schedmd.com/mpi_guide.html) - An introductory tutorial of various MPI implementations.
 * [Github: Open-MPI tutorial](https://usc-rc.github.io/tutorials/open-mpi) - A tutorial of using Open MPI.
 * [Compute Canada: MPI-IO](https://docs.alliancecan.ca/wiki/MPI-IO) - Description and using tutorial of MPI-IO.
-
-# jax
+## Jax
 * [jax.pmap](https://jax.readthedocs.io/en/latest/_autosummary/jax.pmap.html) - Step-by-step jax.pmap guide.
 * [Compute Canada: Flax](https://docs.alliancecan.ca/wiki/Flax) - Introduction and tutorial of Flax, a neural network library and ecosystem for JAX that is designed for flexibility, including the guidance of using jax.pmap.
 
@@ -69,6 +68,6 @@
 * [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - A toturial of checkpointing a long-running job.
 * [Tensorflow: Checkpoint guide](https://www.tensorflow.org/guide/checkpoint) - Guidance for training checkpoints while using Tensorflow.
 
-# Managing research data 
+# Managing Research Data 
 ## HPC Storage Systems
 * [Compute Canada: Lustre](https://docs.alliancecan.ca/wiki/Tuning_Lustre) - An introduction and tutorial of Lustre Filesystem.
