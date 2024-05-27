@@ -54,7 +54,7 @@ capacity), and persistent ‘project’ (at 23 000 TB), to high-speed non-persis
 5400 TB). 
 - Niagara: The tiered storage system ranges from small persistent ‘home’ (at 200 TB total capacity), and persistent ‘project’ (at 2000 TB), to high-speed nonpersistent ‘scratch’ (at 7000 TB), and very-high speed non-persistent ‘burst’ (at 230 TB).
 - Béluga: The tiered storage system ranges from small persistent ‘home’ (at over 100 TB total capacity), and persistent ‘project’ (at 25000 TB), to high-speed non-persistent ‘scratch’ (at 2600 TB).
-- 
+  
 ![Tiering model. Photo by https://static.wixstatic.com](https://static.wixstatic.com/media/5446c2_002fa8b33249455b80a94926fc81cc26~mv2.jpg/v1/crop/x_0,y_118,w_1015,h_482/fill/w_1015,h_482,al_c,q_85,enc_auto/07032022_Tiering-Model.jpg)
 
 ## A backup storage server
