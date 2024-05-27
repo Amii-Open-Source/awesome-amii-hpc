@@ -41,6 +41,7 @@
 * [Github SSH authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) - Connecting Github account to your computer and the cluster.
 * [git - the simple guide](https://rogerdudler.github.io/git-guide/) - A short introduction and Step-by-step git guide. 
 * [Compute Canada: Storage and file management](https://docs.alliancecan.ca/wiki/Storage_and_file_management) - An introduction of a wide range of storage options to cover the needs of very diverse users of Compute Canada.
+
 ## When should I use a cluster?
 
 
@@ -62,7 +63,7 @@
 * [Compute Canada: Flax](https://docs.alliancecan.ca/wiki/Flax) - Introduction and tutorial of Flax, a neural network library and ecosystem for JAX that is designed for flexibility, including the guidance of using jax.pmap.
 
 # Slurm 
-## module 4 - Preemption and checkpointing
+## Module 4 - Preemption and checkpointing
 * [Compute Canada: Checkpoints](https://docs.alliancecan.ca/wiki/Points_de_contr%C3%B4le/en) - A tutorial of creating and loading a checkpoint.
 * [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - A toturial of checkpointing a long-running job.
 * [Tensorflow: Checkpoint guide](https://www.tensorflow.org/guide/checkpoint) - Guidance for training checkpoints while using Tensorflow.
