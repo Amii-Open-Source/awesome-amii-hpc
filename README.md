@@ -7,12 +7,14 @@
 ## Table of Contents
 
 1. [What is a cluster?](#what-is-a-cluster)
+1. [What is a cluster?](#what-is-a-cluster)
 2. [How do I connect to the cluster?](#how-do-i-connect-to-the-cluster)
 
 ## What is a cluster?
 
 * [Wikipedia](https://en.wikipedia.org/wiki/High-performance_computing) - An introduction of HPC.
 * [Nvidia: MIG user guide documentation](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html#abstract) - A user guide documentation of multi-instance GPU from Nvidia.
+* [Current State of Advanced Research Computing in Canada, May 2021](https://alliancecan.ca/sites/default/files/2022-03/arc_current_state_report_0.pdf) - Compute, storage, communication data of Compute Canada HPCs.
 * [Ubuntu HPC](https://www.youtube.com/watch?v=tGIobcyKViI&t=2s) - A Youtube video introducting cluster components.
 * [Top 500 list](https://www.top500.org/) - The data of top 500 listed supercomputers, which gives a scope of how fast and how much compute nodes are, and also introduction and comparison among these computers.
 * [Iowa State University HPC Guides](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters) - A collection of introductory guides for HPC including SLURM, globus, unix, python, julia, and much more.
