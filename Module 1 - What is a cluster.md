@@ -6,7 +6,7 @@ An HPC cluster typically contains three primary components. (1) A head node (or 
 ![An HPC cluster topology. Photo by https://www.hpc.iastate.edu](https://www.hpc.iastate.edu/sites/default/files/uploads/HPCHowTo/HPCCluster.JPG)*An HPC cluster topology. Photo by https://www.hpc.iastate.edu*
          
 ## Networking of an HPC cluster
-![Topology of "Hortense" Tier-1 supercomputer, hosted by Ghent University](https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_1729,h_1357,al_c,q_95,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png)*Topology of an hpc. Photo by https://static.wixstatic.com*
+![Topology of "Hortense" Tier-1 supercomputer, hosted by Ghent University](https://static.wixstatic.com/media/5446c2_a7e080a424d242eb8334cd98be1899bd~mv2.png/v1/fill/w_1729,h_1357,al_c,q_95,enc_auto/07072023_VSC-Tier-1-Hortense_Illustration.png)*Topology of an HPC. Photo by https://static.wixstatic.com*
 
 ## Login nodes
 The login nodes of clusters are the portal to the outside world. Users connect to these nodes mostly using SSH (Secure Shell), which is a common method for secure remote login from one computer to another. When connecting to the cluster, you initially interact with these login nodes. The nodes handle many concurrent users, typically between 50 and 100. It's crucial that these nodes are quick and responsive to ensure that users do not spend excessive time waiting for simple commands to execute. 
