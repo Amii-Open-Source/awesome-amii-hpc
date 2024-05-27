@@ -7,7 +7,6 @@
 ## Table of Contents
 
 1. [What is a cluster?](#what-is-a-cluster)
-1. [What is a cluster?](#what-is-a-cluster)
 2. [How do I connect to the cluster?](#how-do-i-connect-to-the-cluster)
 
 ## What is a cluster?
