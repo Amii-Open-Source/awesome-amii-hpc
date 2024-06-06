@@ -15,6 +15,7 @@
 
 ## What is a cluster?
 
+* [Amii: What is a cluster?](content/Intro%20to%20HPC/Module%201%20-%20What%20is%20a%20cluster.md) - A brief description of the components of an HPC cluster.
 * [Wikipedia](https://en.wikipedia.org/wiki/High-performance_computing) - An introduction of HPC.
 * [Nvidia: MIG user guide documentation](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html#abstract) - A user guide documentation of multi-instance GPU from Nvidia.
 * [Current State of Advanced Research Computing in Canada, May 2021](https://alliancecan.ca/sites/default/files/2022-03/arc_current_state_report_0.pdf) - Compute, storage, communication data of Compute Canada HPCs.
