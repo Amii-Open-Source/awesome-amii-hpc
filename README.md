@@ -19,14 +19,14 @@
 * [Wikipedia](https://en.wikipedia.org/wiki/High-performance_computing) - An introduction of HPC.
 * [Nvidia: MIG user guide documentation](https://docs.nvidia.com/datacenter/tesla/mig-user-guide/index.html#abstract) - A user guide documentation of multi-instance GPU from Nvidia.
 * [Current State of Advanced Research Computing in Canada, May 2021](https://alliancecan.ca/sites/default/files/2022-03/arc_current_state_report_0.pdf) - Compute, storage, communication data of Compute Canada HPCs.
-* [Ubuntu HPC](https://www.youtube.com/watch?v=tGIobcyKViI&t=2s) - A Youtube video introducting cluster components.
+* [Ubuntu HPC](https://www.youtube.com/watch?v=tGIobcyKViI&t=2s) - A Youtube video introducing cluster components.
 * [Top 500 list](https://www.top500.org/) - The data of top 500 listed supercomputers, which gives a scope of how fast and how much compute nodes are, and also introduction and comparison among these computers.
 * [Iowa State University HPC Guides](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters) - A collection of introductory guides for HPC including SLURM, globus, unix, python, julia, and much more.
 * [An HPC User Guide](https://servicedesk.aub.edu.lb/TDClient/1398/Portal/KB/ArticleDet?ID=66391) - A collection of introductory guides for HPC including connection nodes, SLURM, job examples and applications.
 
 ### Compute Canada
 
-* [Compute Canada: an introduction to HPC](https://training.incf.org/lesson/high-performance-computing-compute-canada) - A Youtube video introducting high-performance computing with the Compute Canada network, first providing an overview of use cases for HPC and then a hands-on tutorial.
+* [Compute Canada: an introduction to HPC](https://training.incf.org/lesson/high-performance-computing-compute-canada) - A Youtube video introducing high-performance computing with the Compute Canada network, first providing an overview of use cases for HPC and then a hands-on tutorial.
 * [Compute Canada: Cedar](https://docs.alliancecan.ca/wiki/Cedar) - An introduction of Cedar, a heterogeneous cluster located at Simon Fraser University.
 * [Compute Canada: Graham](https://docs.alliancecan.ca/wiki/Graham) - An introduction of Graham, a heterogeneous cluster located at the University of Waterloo.
 * [Compute Canada: Narval](https://docs.alliancecan.ca/wiki/Narval/en) - An introduction of Narval, a general purpose cluster located at the École de technologie supérieure in Montreal.
@@ -39,7 +39,7 @@
 
 * [SSH quickstart](https://linuxhandbook.com/ssh-basics/) - Step-by-step ssh and scp guide.
 * [Compute Canada: SSH](https://docs.alliancecan.ca/wiki/SSH) - An introduction of Secure Shell used to connect to remote machines securely.
-* [Compute Canada: Transferring data](https://docs.alliancecan.ca/wiki/Transferring_data) - Overview of options for transferring data to and between clusters (Glubus, rsync, scp, etc.).
+* [Compute Canada: Transferring data](https://docs.alliancecan.ca/wiki/Transferring_data) - Overview of options for transferring data to and between clusters (Globus, rsync, scp, etc.).
 * [Compute Canada: Globus](https://docs.alliancecan.ca/wiki/Globus) - Setup and tutorial for Globus with Compute Canada.
 * [Globus docs](https://docs.globus.org) - Globus tutorials and documentations.
 * [Globus video tutorial](https://www.youtube.com/watch?v=-j7Mp3FN1zo) - Youtube video introduction to Globus for researchers and new users.
@@ -78,7 +78,7 @@
 ### Preemption and checkpointing
 
 * [Compute Canada: Checkpoints](https://docs.alliancecan.ca/wiki/Points_de_contr%C3%B4le/en) - A tutorial of creating and loading a checkpoint.
-* [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - A toturial of checkpointing a long-running job.
+* [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - A tutorial of checkpointing a long-running job.
 * [Tensorflow: Checkpoint guide](https://www.tensorflow.org/guide/checkpoint) - Guidance for training checkpoints while using Tensorflow.
 
 ## Managing Research Data
