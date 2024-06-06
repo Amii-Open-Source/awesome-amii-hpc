@@ -8,6 +8,10 @@
 
 1. [What is a cluster?](#what-is-a-cluster)
 2. [How do I connect to the cluster?](#how-do-i-connect-to-the-cluster)
+3. [When should I use a cluster?](#when-should-i-use-a-cluster)
+4. [Synchronous parallelism](#synchronous-parallelism)
+5. [Slurm](#slurm)
+6. [Managing research data](#managing-research-data)
 
 ## What is a cluster?
 
@@ -18,7 +22,9 @@
 * [Top 500 list](https://www.top500.org/) - The data of top 500 listed supercomputers, which gives a scope of how fast and how much compute nodes are, and also introduction and comparison among these computers.
 * [Iowa State University HPC Guides](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters) - A collection of introductory guides for HPC including SLURM, globus, unix, python, julia, and much more.
 * [An HPC User Guide](https://servicedesk.aub.edu.lb/TDClient/1398/Portal/KB/ArticleDet?ID=66391) - A collection of introductory guides for HPC including connection nodes, SLURM, job examples and applications.
+
 ### Compute Canada
+
 * [Compute Canada: an introduction to HPC](https://training.incf.org/lesson/high-performance-computing-compute-canada) - A Youtube video introducting high-performance computing with the Compute Canada network, first providing an overview of use cases for HPC and then a hands-on tutorial.
 * [Compute Canada: Cedar](https://docs.alliancecan.ca/wiki/Cedar) - An introduction of Cedar, a heterogeneous cluster located at Simon Fraser University.
 * [Compute Canada: Graham](https://docs.alliancecan.ca/wiki/Graham) - An introduction of Graham, a heterogeneous cluster located at the University of Waterloo.
@@ -40,34 +46,40 @@
 * [Rsync quickstart](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/) - Step-by-step rsync guide.
 * [Compute Canada: Interactive jobs](https://docs.alliancecan.ca/wiki/Running_jobs#Interactive_jobs) - Compute Canada documentation for running interactive jobs.
 * [Github SSH authentication](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) - Connecting Github account to your computer and the cluster.
-* [git - the simple guide](https://rogerdudler.github.io/git-guide/) - A short introduction and Step-by-step git guide. 
+* [git - the simple guide](https://rogerdudler.github.io/git-guide/) - A short introduction and Step-by-step git guide.
 * [Compute Canada: Storage and file management](https://docs.alliancecan.ca/wiki/Storage_and_file_management) - An introduction of a wide range of storage options to cover the needs of very diverse users of Compute Canada.
 
 ## When should I use a cluster?
 
 
 
-# Synchronous Parallelism
+## Synchronous Parallelism
+
 * [Tensorflow: Distributed training](https://www.tensorflow.org/guide/keras/distributed_training) - Introduction and tutorial of Multi-GPU and distributed training.
 * [Wikipedia: GNU parallel](https://en.wikipedia.org/wiki/GNU_parallel) - Introduction and user's guide of GNU parallel.
 * [Compute Canada: GNU parallel](https://docs.alliancecan.ca/wiki/GNU_Parallel) - An introductory tutorial of using GNU parallel.
 * [GNU parallel tutorial documentation](https://www.gnu.org/software/parallel/parallel_tutorial.html) - A tutorial of GNU parallel, including its functionality, options and syntax.
-## OpenMPI
+
+### OpenMPI
+
 * [Open-MPI documentation](https://www.open-mpi.org/doc/) - A series of versions for Open MPI documentations.
 * [Open MPI v5.0.x](https://docs.open-mpi.org/en/v5.0.x/) - The documentation of current release Open MPI.
 * [SLURM: MPI users guide](https://slurm.schedmd.com/mpi_guide.html) - An introductory tutorial of various MPI implementations.
 * [Github: Open-MPI tutorial](https://usc-rc.github.io/tutorials/open-mpi) - A tutorial of using Open MPI.
 * [Compute Canada: MPI-IO](https://docs.alliancecan.ca/wiki/MPI-IO) - Description and using tutorial of MPI-IO.
-## Jax
+
+### Jax
+
 * [jax.pmap](https://jax.readthedocs.io/en/latest/_autosummary/jax.pmap.html) - Step-by-step jax.pmap guide.
 * [Compute Canada: Flax](https://docs.alliancecan.ca/wiki/Flax) - Introduction and tutorial of Flax, a neural network library and ecosystem for JAX that is designed for flexibility, including the guidance of using jax.pmap.
 
-# Slurm 
-## Module 4 - Preemption and checkpointing
+## Slurm
+### Preemption and checkpointing
+
 * [Compute Canada: Checkpoints](https://docs.alliancecan.ca/wiki/Points_de_contr%C3%B4le/en) - A tutorial of creating and loading a checkpoint.
 * [Compute Canada: Machine Learning tutorial](https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en#Checkpointing_a_long-running_job) - A toturial of checkpointing a long-running job.
 * [Tensorflow: Checkpoint guide](https://www.tensorflow.org/guide/checkpoint) - Guidance for training checkpoints while using Tensorflow.
 
-# Managing Research Data 
-## HPC Storage Systems
+## Managing Research Data
+### HPC Storage Systems
 * [Compute Canada: Lustre](https://docs.alliancecan.ca/wiki/Tuning_Lustre) - An introduction and tutorial of Lustre Filesystem.
