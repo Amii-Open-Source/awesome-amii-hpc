@@ -18,7 +18,8 @@ The Message Passing Interface (MPI) is a standard that describes a set of subrou
 However, managing communication and synchronization explicitly in MPI programs can make them appear more complex compared to those written with tools supporting implicit communication. Designing an MPI program requires careful consideration to minimize communication overhead and achieve good speed-up from parallel computation.
 
 Parallel programs written using MPI follow an execution model called Single Program, Multiple Data (SPMD). The SPMD model involves running multiple copies of a single program, with each copy (or "process") assigned a unique rank. Each process can obtain its rank when it runs. When different behavior is needed for different processes, an "if" statement based on the process's rank is used to execute the appropriate instructions.
-![SPMD model illustrating conditional branching to control divergent behaviour](https://docs.alliancecan.ca/mediawiki/images/8/8a/SPMD_model.png)*SPMD model illustrating conditional branching to control divergent behaviour*
+![SPMD model illustrating conditional branching to control divergent behaviour](https://docs.alliancecan.ca/mediawiki/images/8/8a/SPMD_model.png)
+*SPMD model illustrating conditional branching to control divergent behaviour*
 
 ## Many asynchronous parallel processes
 Asynchronous parallel processes are processes that can run independently and do not need to communicate with each other during execution, for example:
