@@ -52,7 +52,10 @@
 
 ## When should I use a cluster?
 
-
+* [Job scheduling policies](https://docs.alliancecan.ca/wiki/Job_scheduling_policies) - Time limits of each cluster and number of jobs, helping identify recognize what type of job may use a cluster.
+* [The necessity of checkpointing](https://docs.alliancecan.ca/wiki/AI_and_Machine_Learning#Long_running_computations) - When should we use checkpointing.
+* [Dealing with heavy computing](https://scil-documentation.readthedocs.io/en/latest/heavy/computing.html) - An example of when and how to use compute canada.
+* [When to use HPC cluster](https://www.hpc.iastate.edu/guides/introduction-to-hpc-clusters/when-to-use-hpc-cluster) - Typical cases of when it may be beneficial to request access to an HPC cluster.
 
 ## Synchronous Parallelism
 
